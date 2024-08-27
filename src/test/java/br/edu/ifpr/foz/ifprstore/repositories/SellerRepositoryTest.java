@@ -1,14 +1,11 @@
 package br.edu.ifpr.foz.ifprstore.repositories;
 
 import br.edu.ifpr.foz.ifprstore.models.Seller;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.time.LocalDate;
 import java.util.List;
 
 public class SellerRepositoryTest {
-
 
     @Test
     public void deveExibirUmaListaDeSellers(){
